@@ -1,0 +1,36 @@
+
+H:\fall-2016\cs430\code\cs430\eom>dir
+ Volume in drive H is 720-SAN-736
+ Volume Serial Number is F47A-2053
+
+ Directory of H:\fall-2016\cs430\code\cs430\eom
+
+09/12/2016  03:25 PM    <DIR>          .
+09/12/2016  03:25 PM    <DIR>          ..
+09/12/2016  03:25 PM                32 ciphertext_cbc.txt
+09/12/2016  03:03 PM                25 plaintext.txt
+               2 File(s)             57 bytes
+               2 Dir(s)  121,598,730,240 bytes free
+
+H:\fall-2016\cs430\code\cs430\eom>openssl
+H:\fall-2016\cs430\code\cs430\eom>openssl
+OpenSSL> aes-128-ecb -K 11223344556677889900112233445566 -in
+ plaintext.txt -out ciphertext_ecb.txt
+OpenSSL> aes-128-ecb -v  -K 11223344556677889900112233445566
+ -in plaintext.txt -out ciphertext_ecb.txt
+bufsize=8192
+bytes read   :      25
+bytes written:      32
+OpenSSL> aes-128-cbc -v -K 11223344556677889900112233445566
+-iv 11223344556677889900112233445566 -in plaintext.txt -out
+ciphertext_cbc.txt
+bufsize=8192
+bytes read   :      25
+bytes written:      32
+OpenSSL> aes-128-cfb -v -K 11223344556677889900112233445566
+-iv 11223344556677889900112233445566 -in plaintext.txt -out
+ciphertext_cfb.txt
+bufsize=8192
+bytes read   :      25
+bytes written:      25
+OpenSSL>
