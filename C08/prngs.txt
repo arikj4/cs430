@@ -5,3 +5,11 @@ x = 967
 for i in range(10):
     x = (a*x+c) % m
     print(x)
+	
+	
+n = 10
+x = 7
+for i in range(11):
+    x = x*x % n
+    bx = bin(x)
+    print(x, ' ' ,bx)	
