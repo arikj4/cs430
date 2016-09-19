@@ -27,3 +27,4 @@ Chapter 09:
 	https://linuxconfig.org/using-openssl-to-encrypt-messages-and-files-on-linux
 	https://git-scm.com/
 	https://tortoisegit.org/
+	https://www.ntu.edu.sg/home/ehchua/programming/howto/CMD_Survival.html
