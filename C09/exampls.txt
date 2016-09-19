@@ -1,0 +1,18 @@
+# public key (e,n)
+# private key (d,n)
+n=187
+e=7
+d=23
+
+# ASCII code for 'A'
+ord('A')
+
+# encryption
+65**e % n
+
+# decryption
+142**d % n
+
+# from ASCII code to character
+chr(65)
+
