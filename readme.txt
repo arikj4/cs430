@@ -25,3 +25,5 @@ Chapter 7-15:
 	
 Chapter 09:
 	https://linuxconfig.org/using-openssl-to-encrypt-messages-and-files-on-linux
+	https://git-scm.com/
+	https://tortoisegit.org/
