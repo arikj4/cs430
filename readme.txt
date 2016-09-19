@@ -22,3 +22,6 @@ Chapter 7-15:
 	
 	.NET Framework Cryptography Model
 	https://msdn.microsoft.com/en-us/library/0ss79b2x(v=vs.110).aspx
+	
+Chapter 09:
+	https://linuxconfig.org/using-openssl-to-encrypt-messages-and-files-on-linux
