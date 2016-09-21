@@ -30,4 +30,8 @@ Chapter 09:
 	https://www.ntu.edu.sg/home/ehchua/programming/howto/CMD_Survival.html
 	
 Lab-1:
+	Setup Git<->Github
 	http://dancingmonkeysaccelerated.blogspot.com/2012/03/git-for-windows-with-tortoisegit-and.html
+	Command line parser lib of Java
+	http://commons.apache.org/proper/commons-cli/
+	
