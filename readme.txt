@@ -16,12 +16,7 @@ Chapter 7-15:
 	Openssl online document - https://www.openssl.org/docs/manmaster/apps/enc.html
 	https://wiki.openssl.org/index.php/Command_Line_Utilities
 
-	Java Cryptography Architecture (JCA) Reference Guide
-	http://docs.oracle.com/javase/7/docs/technotes/guides/security/crypto/CryptoSpec.html#Cipher
-	
-	
-	.NET Framework Cryptography Model
-	https://msdn.microsoft.com/en-us/library/0ss79b2x(v=vs.110).aspx
+
 	
 Chapter 09:
 	https://linuxconfig.org/using-openssl-to-encrypt-messages-and-files-on-linux
@@ -34,4 +29,11 @@ Lab-1:
 	http://dancingmonkeysaccelerated.blogspot.com/2012/03/git-for-windows-with-tortoisegit-and.html
 	Command line parser lib of Java
 	http://commons.apache.org/proper/commons-cli/
+	
+	Java Cryptography Architecture (JCA) Reference Guide
+	http://docs.oracle.com/javase/7/docs/technotes/guides/security/crypto/CryptoSpec.html#Cipher
+	
+	
+	.NET Framework Cryptography Model
+	https://msdn.microsoft.com/en-us/library/0ss79b2x(v=vs.110).aspx	
 	
