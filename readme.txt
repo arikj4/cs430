@@ -30,5 +30,4 @@ Chapter 09:
 	https://www.ntu.edu.sg/home/ehchua/programming/howto/CMD_Survival.html
 	
 Lab-1:
-	https://blog.assembla.com/AssemblaBlog/tabid/12618/bid/77264/Setting-Up-Git-on-Windows-in-Four-Easy-Steps.aspx
 	http://dancingmonkeysaccelerated.blogspot.com/2012/03/git-for-windows-with-tortoisegit-and.html
