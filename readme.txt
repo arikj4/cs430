@@ -39,6 +39,7 @@ Lab-1:
 	
 Chapter 11:
 	https://emn178.github.io/online-tools/index.html
+	http://mirrors-usa.go-parts.com/gcc/
 	http://releases.ubuntu.com/xenial/
 
 	
