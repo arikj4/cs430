@@ -37,3 +37,8 @@ Lab-1:
 	.NET Framework Cryptography Model
 	https://msdn.microsoft.com/en-us/library/0ss79b2x(v=vs.110).aspx	
 	
+Chapter 11:
+	https://emn178.github.io/online-tools/index.html
+	http://releases.ubuntu.com/xenial/
+
+	
