@@ -141,3 +141,45 @@ bufsize=8192
 bytes read   :     710
 bytes written:     710
 OpenSSL>
+
+# in a single line
+H:\fall-2016\cs430\code\cs430\project1\python>openssl enc -a
+es-128-ecb -K 11223344556677889900112233445566 -v -nosalt -i
+n poem.txt -out poem128ecb.txt
+bufsize=8192
+bytes read   :     710
+bytes written:     720
+
+# run the python script
+H:\fall-2016\cs430\code\cs430\project1\python>python aesu.py
+ -e  -K 11223344556677889900112233445566 -m ecb  -in poem.tx
+t -out poempy128ecb.txt
+Number of arguments: 10 arguments.
+Argument List: ['aesu.py', '-e', '-K', '11223344556677889900
+112233445566', '-m', 'ecb', '-in', 'poem.txt', '-out', 'poem
+py128ecb.txt']
+show in another way:
+aesu.py
+-e
+-K
+11223344556677889900112233445566
+-m
+ecb
+-in
+poem.txt
+-out
+poempy128ecb.txt
+acess parameters one by one
+aesu.py
+-e
+-K
+11223344556677889900112233445566
+-m
+ecb
+-in
+poem.txt
+-out
+poempy128ecb.txt
+bufsize=8192
+bytes read   :     710
+bytes written:     720
