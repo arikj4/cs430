@@ -41,5 +41,8 @@ Chapter 11:
 	https://emn178.github.io/online-tools/index.html
 	http://mirrors-usa.go-parts.com/gcc/
 	http://releases.ubuntu.com/xenial/
+	
+Chapter 13:
+		http://www.zimuel.it/sign-and-verify-a-file-using-openssl/
 
 	
