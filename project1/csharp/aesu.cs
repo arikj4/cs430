@@ -6,7 +6,7 @@ class StandardOutputExample
 {
 	public static void Main(string[] args)
 	{
-		Console.WriteLine( "Number of arguments:" + args.Length + "arguments.");
+		Console.WriteLine( "Number of arguments:" + args.Length + " arguments.");
 		Console.WriteLine ("Argument List:");
 		foreach(string arg in args)
 		{
