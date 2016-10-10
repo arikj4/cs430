@@ -1,0 +1,66 @@
+# midterm review 
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserv
+ed.
+
+C:\Users\xiawang>h:
+
+H:\>cd "fall-2016\cs430\code\cs430\midterm review"
+
+H:\fall-2016\cs430\code\cs430\midterm review>dir
+ Volume in drive H is 720-SAN-736
+ Volume Serial Number is F47A-2053
+
+ Directory of H:\fall-2016\cs430\code\cs430\midterm review
+
+10/10/2016  01:55 PM    <DIR>          .
+10/10/2016  01:55 PM    <DIR>          ..
+10/10/2016  02:03 PM                17 examples.txt
+               1 File(s)             17 bytes
+               2 Dir(s)  110,834,511,872 bytes free
+
+H:\fall-2016\cs430\code\cs430\midterm review>openssl
+OpenSSL> aes-128-ecb -e -K 00112233445566778899112233445566
+-v -p -in plaintext.txt -out cipherecb.txt
+bufsize=8192
+salt=0300000000000000
+key=00112233445566778899112233445566
+bytes read   :       5
+bytes written:      16
+OpenSSL> aes-128-ecb -e -K 00112233445566778899112233445566
+-v -p -nosalt  -in plaintext.txt -out cipherecb.txt
+bufsize=8192
+key=00112233445566778899112233445566
+bytes read   :       5
+bytes written:      16
+OpenSSL> aes-128-ecb -e -K 00112233445566778899112233445566
+-v -p -in plaintext.txt -out cipherecbns.txt
+bufsize=8192
+salt=0300000000000000
+key=00112233445566778899112233445566
+bytes read   :       5
+bytes written:      16
+OpenSSL> aes-128-ecb -e -K 00112233445566778899112233445566
+-v -nopad  -p -in plaintextpadded.txt -out cipherecbpadded.t
+xt
+bufsize=8192
+salt=0300000000000000
+key=00112233445566778899112233445566
+bytes read   :      16
+bytes written:      16
+OpenSSL> aes-128-ecb -e -K 00112233445566778899112233445566
+-v   -p -in plaintextpadded.txt -out cipherecbpadded1.txt
+bufsize=8192
+salt=0300000000000000
+key=00112233445566778899112233445566
+bytes read   :      16
+bytes written:      32
+OpenSSL> aes-128-ecb -e -K 00112233445566778899 -v   -p -in
+plaintextpadded.txt -out cipherecbpadded2.txt
+bufsize=8192
+salt=0300000000000000
+key=00112233445566778899000000000000
+bytes read   :      16
+bytes written:      32
+OpenSSL>
