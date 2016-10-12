@@ -1,26 +1,7 @@
 # command lines for chapter 14
 
-Microsoft Windows [Version 6.1.7601]
 
-XiaWang@CIS-FA01LIB032 C:\Users\xiawang
-> h:
-
-XiaWang@CIS-FA01LIB032 H:\
-> cd fall-2016\cs430\code\cs430\c14
-
-XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
-> dir
- Volume in drive H is 720-SAN-736
- Volume Serial Number is F47A-2053
-
- Directory of H:\fall-2016\cs430\code\cs430\C14
-
-10/12/2016  01:52 PM    <DIR>          .
-10/12/2016  01:52 PM    <DIR>          ..
-10/12/2016  01:52 PM                 0 examples.txt
-               1 File(s)              0 bytes
-               2 Dir(s)  111,450,898,432 bytes free
-
+# generate myprivatekey and my request for signing from a certificate authority
 XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
 > openssl
 OpenSSL> req -newkey rsa:2048 -nodes -keyout mypravatekey.pem -out myreq.csr
@@ -48,11 +29,8 @@ Please enter the following 'extra' attributes
 to be sent with your certificate request
 A challenge password []:.
 An optional company name []:.
-OpenSSL> req -text -noout -verify -in myreq.csr
-problem creating object tsa_policy1=1.2.3.4.1
-7936:error:08064066:object identifier routines:OBJ_create:oid exists:crypto\objects\obj_dat.c:689: error in req
-OpenSSL> base64 -d in myreq.64 -out myreq.txt
-OpenSSL> ^C
+
+# view my certificate signing request
 XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
 > openssl req -text -noout -verify -in myreq.csr
 verify OK
@@ -102,27 +80,9 @@ Certificate Request:
          4b:45:d5:9e:87:80:c7:a0:f9:4e:82:c3:1b:88:c2:c7:61:42:
          fd:5b:89:da
 
-XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
-> openssl req -key myprivatekey.pem -new -x509 -days 365 -out mycertificate.crt
-Can't open myprivatekey.pem for reading, No such file or directory
-6988:error:02001002:system library:fopen:No such file or directory:crypto\bio\bss_file.c:74:fopen('myprivatekey.pem','r')
-6988:error:2006D080:BIO routines:BIO_new_file:no such file:crypto\bio\bss_file.c:77:
-unable to load Private Key
 
-XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
-> openssl req -key mypravatekey.pem -new -x509 -days 365 -out mycertificate.crt
-You are about to be asked to enter information that will be incorporated
-into your certificate request.
-What you are about to enter is what is called a Distinguished Name or a DN.
-There are quite a few fields but you can leave some blank
-For some fields there will be a default value,
-If you enter '.', the field will be left blank.
------
-Country Name (2 letter code) [AU]:p^C
-XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
-> openssl x509 -signkey mypravatekey.pem -in myreq.csr -req -day 365 -out mycert.crt
-x509: Unknown digest day
-x509: Use -help for summary.
+
+# Signing my request by my self 
 
 XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
 > openssl x509 -signkey mypravatekey.pem -in myreq.csr -req -days 365 -out mycert.crt
@@ -130,6 +90,8 @@ Signature ok
 subject=C = US, ST = WI, L = Madison, O = Edgewood College, OU = CIS, CN = Xianping Wang, emailAddress = xiawang@edgewood.edu
 Getting Private key
 
+
+# view my certificate
 XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
 > openssl x509 -text -noout -in mycert.crt
 Certificate:
@@ -183,12 +145,17 @@ Certificate:
          d2:c4:d2:1c:cb:16:49:9c:29:77:db:83:f9:a6:58:a5:e8:f8:
          7b:da:7b:47
 
+		 
+# get my public key from my certificate		 
 XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
 > openssl x509 -in mycert.crt -pubkey -noout > mypub.pem
 
+# encrypt with my public key
 XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
 > openssl rsautl -encrypt -inkey mypub.pem -pubin -in examples.txt -out cipher.txt
 
+
+# decrypt with my private key
 XiaWang@CIS-FA01LIB032 H:\fall-2016\cs430\code\cs430\C14
 > openssl rsautl -decrypt -inkey mypravatekey.pem -in cipher.txt -out decoded.txt
 
