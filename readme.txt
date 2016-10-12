@@ -49,5 +49,7 @@ Chapter 14:
 	https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs	https://jamielinux.com/docs/openssl-certificate-authority/sign-server-and-client-certificates.html
 	https://help.ubuntu.com/lts/serverguide/certificates-and-security.html#certificate-authority
 	https://datacenteroverlords.com/2012/03/01/creating-your-own-ssl-certificate-authority/
+	https://www.openssl.org/docs/manmaster/apps/rsautl.html
+	http://www.czeskis.com/random/openssl-encrypt-file.html
 
 	
