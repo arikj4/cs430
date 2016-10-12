@@ -44,5 +44,8 @@ Chapter 11:
 	
 Chapter 13:
 	http://www.zimuel.it/sign-and-verify-a-file-using-openssl/
+	
+Chapter 14:
+	https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs
 
 	
