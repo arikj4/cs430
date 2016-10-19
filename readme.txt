@@ -51,5 +51,11 @@ Chapter 14:
 	https://datacenteroverlords.com/2012/03/01/creating-your-own-ssl-certificate-authority/
 	https://www.openssl.org/docs/manmaster/apps/rsautl.html
 	http://www.czeskis.com/random/openssl-encrypt-file.html
+	
+Chapter 15:
+	http://web.mit.edu/kerberos/kfw-4.1/kfw-4.1.html
+	
+Python:
+	https://www.tutorialspoint.com/python/
 
 	
