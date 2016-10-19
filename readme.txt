@@ -57,5 +57,8 @@ Chapter 15:
 	
 Python:
 	https://www.tutorialspoint.com/python/
+	https://www.python.org/downloads/
+	Anaconda
+	https://www.continuum.io/downloads
 
 	
