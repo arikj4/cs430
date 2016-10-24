@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from sympy.categories.baseclasses import Diagram
-from mpmath import matrix
 
 def i2j(strin):
 	''' convert all 'i's in strin to 'j'
@@ -154,6 +152,16 @@ def decrypt(cipher, key):
 		
 if __name__ == '__main__':
 	# test key generation
+	password = 'hello'
+	plain = "itisawonderfulday"
+	
+	cipher = encrypt(plain, password)
+	print ('ciphertext:', cipher)
+	deplain = decrypt(cipher, password)
+	print('decrypted plain:', ''.join(deplain))
+	
+	
+	'''
 	passwords = ("hello", "playfairexample")
 	plain = "itisawonderfulday"
 	for password in passwords:
@@ -161,8 +169,10 @@ if __name__ == '__main__':
 		print (cipher)
 		deplain = decrypt(cipher, password)
 		print(deplain)
+		
 		print(gendigram(password))
 		key = rmdup(password)
 		matrix = genmatrix(key)
 		print(key)
 		print(matrix)
+	'''
