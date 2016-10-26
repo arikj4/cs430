@@ -67,6 +67,9 @@ Practice-04:
 	https://pypi.python.org/pypi/crypto-enigma
 	https://pypi.python.org/pypi/py-enigma/0.1
 	http://pythonfiddle.com/the-enigma-cipher/
-	http://williamedwardscoder.tumblr.com/post/145304200648/enigma-machine-on-paper-and-python
+	
+	Paper_Enigma
+	http://wiki.franklinheath.co.uk/index.php/Enigma/Paper_Enigma	http://williamedwardscoder.tumblr.com/post/145304200648/enigma-machine-on-paper-and-python
+	
 
 	
