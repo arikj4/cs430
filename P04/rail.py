@@ -98,8 +98,9 @@ if __name__ == '__main__':
 	
 	for key in (1,2,3,4):
 		cipher = encrypt(plain, key)
-		print(cipher)
+		print(str(key)+':', cipher)
 	
 		#test decryption
 		decrypted_plain = decrypt(cipher, key)
-		print(decrypted_plain)
+		print(str(key)+':', decrypted_plain)
+		print('\n')
