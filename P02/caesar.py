@@ -7,10 +7,16 @@ def encrypt(plain, key, alphabet):
 		key	--- symmetric key
 		alphabet --- a list of characters consisting the alphabet
 	"""
+	realkey = 3
+	if str(key).isdigit() :
+		realkey = key
+	else:
+		realkey = alphabet.index(key)
+		
 	numofchar = len(alphabet)
 	cipher = []
 	for ch in plain:
-		cipher.append(alphabet[(alphabet.index(ch)+key) % numofchar])
+		cipher.append(alphabet[(alphabet.index(ch)+realkey) % numofchar])
 	return "".join(cipher)	
 		
 def decrypt(cipher, key, alphabet):
@@ -19,10 +25,16 @@ def decrypt(cipher, key, alphabet):
 		key	--- symmetric key
 		alphabet --- a list of characters consisting the alphabet
 	"""
+	realkey = 3
+	if str(key).isdigit() :
+		realkey = key
+	else:
+		realkey = alphabet.index(key)	
+	
 	numofchar = len(alphabet)
 	plain = []
 	for ch in cipher:
-		plain.append(alphabet[(alphabet.index(ch)-key) % numofchar])
+		plain.append(alphabet[(alphabet.index(ch)-realkey) % numofchar])
 	return "".join(plain)	
 		
 if __name__ == '__main__':

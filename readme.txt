@@ -60,5 +60,9 @@ Python:
 	https://www.python.org/downloads/
 	Anaconda
 	https://www.continuum.io/downloads
+	
+Practice-04:
+	Enigma machine
+	http://users.telenet.be/d.rijmenants/en/enigmasim.htm
 
 	
