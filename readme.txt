@@ -64,5 +64,9 @@ Python:
 Practice-04:
 	Enigma machine
 	http://users.telenet.be/d.rijmenants/en/enigmasim.htm
+	https://pypi.python.org/pypi/crypto-enigma
+	https://pypi.python.org/pypi/py-enigma/0.1
+	http://pythonfiddle.com/the-enigma-cipher/
+	http://williamedwardscoder.tumblr.com/post/145304200648/enigma-machine-on-paper-and-python
 
 	
