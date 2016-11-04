@@ -74,5 +74,15 @@ Practice-04:
 Practice-05:
 	https://pymotw.com/2/argparse/
 	
+Practice-06:
+	https://www.feistyduck.com/library/openssl-cookbook/online/ch-openssl.html
+	https://wiki.openssl.org/index.php/Main_Page
+	https://www.openssl.org/
+	https://hg.mozilla.org/mozilla-central/raw-file/tip/security/nss/lib/ckfw/builtins/certdata.txt
+	https://curl.haxx.se/docs/caextract.html
+	https://curl.haxx.se/docs/caextract.html
+	
+	
+	
 
 	
