@@ -34,6 +34,10 @@ openssl dgst -sha1 -mac hmac -macopt key:hello -out macsha1valley.dgst valley.jp
 
 # 3. Signature sign and verification
 openssl rsautl -sign -in macsha1valley.dgst -out macsha1valley.dgst.sgn -inkey private.pem
+openssl rsautl -verify -in macsha1valley.dgst.sgn -out vmacsha1valley.dgst -inkey public.pem -pubin
+
+openssl dgst -sha1 -sign private.pem -out sha1valley.sgn valley.jpg
+openssl dgst -sha1 -verify public.pem -signature sha1valley.sgn valley.jpg
 
 
 
