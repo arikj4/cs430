@@ -1,0 +1,40 @@
+# 0. Sidedish
+#	a) enryption and decryption with base-64
+OpenSSL> base64 -e -in valley.jpg -out valley.64
+OpenSSL> base64 -d -in valley.64 -out dvalley.jpg
+
+#	b) random number generation
+openssl rand -hex 1
+openssl rand -hex 10
+
+# 1. Asymmetric ciphers: public-key cryptography and RSA
+#	a) Key generation
+openssl genrsa -out private.pem 2048
+openssl rsa -in private.pem -pubout -out public.pem
+
+#	b) view key contents
+openssl rsa -in private.pem -text
+openssl rsa -in public.pem -pubin -text
+openssl rsa -in public.pem -pubin -text -noout
+
+#	c) Exchange secret key for asymmetric ciphers
+openssl rsautl -encrypt -in password.txt -inkey public.pem -pubin -out epasswd.txt
+openssl rsautl -decrypt -in epasswd.txt -inkey private.pem -out dpasswd.txt
+
+#	d) Use asymmetric ciphers
+openssl enc -aes-256-ofb -e -v -p -in valley.jpg -out valley256ofb.jpg
+openssl enc -aes-256-ofb -d -v -p -in valley256ofb.jpg -out dvalley256ofb.jpg
+	
+# 2. Cryptographic hash functions: secure hash algorithm, message digest
+# Message authentication codes: MACs based on hash functions
+OpenSSL dgst  -sha1 -out valley.dgst valley.jpg
+OpenSSL dgst -sha512 -out valleysha512.dgst valley.jpg
+openssl dgst -sha1 -hmac hello -out hmacsha1valley.dgst valley.jpg
+openssl dgst -sha1 -mac hmac -macopt key:hello -out macsha1valley.dgst valley.jpg
+
+# 3. Signature sign and verification
+openssl rsautl -sign -in macsha1valley.dgst -out macsha1valley.dgst.sgn -inkey private.pem
+
+
+
+

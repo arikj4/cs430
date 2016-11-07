@@ -75,12 +75,15 @@ Practice-05:
 	https://pymotw.com/2/argparse/
 	
 Practice-06:
+	https://sandilands.info/sgordon/public-key-encryption-and-digital-signatures-using-openssl
+	http://users.dcc.uchile.cl/~pcamacho/tutorial/crypto/openssl/openssl_intro.html
+	https://www.openssl.org/docs/man1.1.0/apps/
 	https://www.feistyduck.com/library/openssl-cookbook/online/ch-openssl.html
 	https://wiki.openssl.org/index.php/Main_Page
 	https://www.openssl.org/
 	https://hg.mozilla.org/mozilla-central/raw-file/tip/security/nss/lib/ckfw/builtins/certdata.txt
 	https://curl.haxx.se/docs/caextract.html
-	https://curl.haxx.se/docs/caextract.html
+
 	
 	
 	
