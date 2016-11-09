@@ -83,6 +83,13 @@ Practice-06:
 	https://www.openssl.org/
 	https://hg.mozilla.org/mozilla-central/raw-file/tip/security/nss/lib/ckfw/builtins/certdata.txt
 	https://curl.haxx.se/docs/caextract.html
+	
+Practice-07:
+
+	https://www.feistyduck.com/library/openssl-cookbook/online/ch-openssl.html#
+	https://raymii.org/s/tutorials/Encrypt_and_decrypt_files_to_public_keys_via_the_OpenSSL_Command_Line.html
+	https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs#generating-ssl-certificates
+	
 
 	
 	

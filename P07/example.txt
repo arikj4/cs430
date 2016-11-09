@@ -39,6 +39,14 @@ openssl rsautl -verify -in macsha1valley.dgst.sgn -out vmacsha1valley.dgst -inke
 openssl dgst -sha1 -sign private.pem -out sha1valley.sgn valley.jpg
 openssl dgst -sha1 -verify public.pem -signature sha1valley.sgn valley.jpg
 
+# 4. Self signing
+openssl x509 -req -days 365 -in Xianping_Wang.csr -signkey Xianping_Wang.prv -out Xianping_Wang.cert
+
+openssl ca -config sub_ca.conf -in ..\fall2016\Xianping_Wang.csr -out ..\fall2016\Xianping_Wang.cert1 -extensions client_ext
+
+openssl verify -CAfile ..\root-ca\root_ca.crt -untrusted ..\sub-ca\sub_ca.crt Xianping_Wang.cert1
+
+
 
 
 
