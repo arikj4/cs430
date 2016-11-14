@@ -18,7 +18,7 @@
 		openssl x509 -pubkey -noout -in Xianping_Wang.crt > Xianping_Wang.pub
 	
 	e) View public-key
-		openssl rsa -in Xianping_Wang.pub -text
+		openssl rsa -in Xianping_Wang.pub -text -pubin
 
 ############ random key wrapping with public-key ##############	
 	a) Generate the random password file
