@@ -1,0 +1,25 @@
+#### Cryptographic hash functions: secure hash algorithm, message digest ###########
+# Message authentication codes: MACs based on hash functions
+	openssl dgst -sha1 -out tiangong.sha1 tiangong.jpg
+	OpenSSL dgst -sha512 -out tiangong.sha512 tiangong.jpg
+	
+	
+	openssl dgst -sha1 -hmac hello -out tiangong.hmacsha1 tiangong.jpg
+	openssl dgst -sha1 -mac hmac -macopt key:hello -out tiangong.macsha1 tiangong.jpg
+
+
+#### Signature sign and verification ##############################################
+
+	openssl dgst -sha1 -sign Xianping_Wang.prv -out tiangong.sha1.sgn2 tiangong.jpg
+	openssl dgst -sha1 -verify Xianping_Wang.pub -signature tiangong.sha1.sgn2 tiangong.jpg
+	
+	# not work
+	openssl dgst -sha1 -hmac hello -sign Xianping_Wang.prv -out tiangong.hmacsha1.sgn2 tiangong.jpg
+	openssl dgst -sha1 -hmac hello -verify Xianping_Wang.pub -signature tiangong.hmacsha1.sgn2 tiangong.jpg	
+	
+	openssl rsautl -sign -in tiangong.hmacsha1 -out tiangong.hmacsha1.sgn1 -inkey Xianping_Wang.prv
+	openssl rsautl -verify -in tiangong.hmacsha1.sgn -out tiangong.hmacsha1.v -inkey Xianping_Wang.pub -pubin
+	fc /b tiangong.hmacsha1 tiangong.hmacsha1.v	
+	
+	
+	

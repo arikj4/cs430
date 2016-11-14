@@ -94,5 +94,13 @@ Practice-08:
 	https://raymii.org/s/tutorials/Encrypt_and_decrypt_files_to_public_keys_via_the_OpenSSL_Command_Line.html
 	
 	
-
+Lab-2/3:
+	https://www.openssl.org/docs/man1.1.0/apps/
+	
+Lab-4-6:
+	https://www.tutorialspoint.com/java/
+	https://docs.oracle.com/javase/tutorial/
+	https://commons.apache.org/proper/commons-cli/	
+	http://docs.oracle.com/javase/7/docs/technotes/guides/security/crypto/CryptoSpec.html#Cipher
+	
 	
