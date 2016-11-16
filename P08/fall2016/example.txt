@@ -27,7 +27,7 @@
 
 ############ random key wrapping with public-key ##############	
 	a) get your partner's public-key from his/her certificate
-	openssl rsa -in Firstname_Lastname.csr -out Firstname_Lastname.pub -outform PEM -pubout
+	openssl x509 -pubkey -noout -in Xianping_Wang.crt > Xianping_Wang.pub
 	
 	b) Generate the random password file
 	openssl rand -hex  -out key11092016.hex 128
