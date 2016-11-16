@@ -1,0 +1,117 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            1d:d0:07:1c:80:8f:4e:75:3a:3c:2b:b6:1b:b9:50:6d
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Edgewood College, CN=CIS CA
+        Validity
+            Not Before: Nov  9 21:16:12 2016 GMT
+            Not After : Nov  7 21:16:12 2026 GMT
+        Subject: C=US, ST=WI, O=Edgewood College, OU=CIS, CN=Xianping Wang/emailAddress=xiawang@edgewood.edu
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c3:78:40:ff:bb:3b:aa:26:8f:76:3d:ce:8d:6c:
+                    0a:b0:f8:ea:bf:61:ed:4f:54:59:98:aa:3c:95:bf:
+                    7e:64:85:1c:c2:df:96:01:f3:c5:87:fa:81:c8:5e:
+                    74:c6:39:4a:48:36:ac:a2:67:0d:c6:54:49:bb:2b:
+                    47:02:c0:ac:09:52:8e:06:02:7d:be:aa:7f:67:65:
+                    94:83:d1:99:03:e1:14:06:ca:eb:05:c9:86:70:d4:
+                    26:f0:a7:1d:8c:32:3d:62:2e:4d:ab:88:82:8d:37:
+                    b6:b0:f6:f7:c6:f5:76:7a:de:07:e8:ee:fb:6f:e5:
+                    b8:45:ae:fd:34:60:78:ba:ef:39:6a:52:0e:b5:81:
+                    1f:3e:25:19:30:ff:46:5f:54:1c:59:6f:7a:a2:89:
+                    1b:3a:d8:7a:e8:65:10:5d:8a:4a:3b:93:8f:a8:d8:
+                    18:93:49:4d:f3:82:d1:aa:4f:be:61:11:72:7d:61:
+                    ba:c3:59:58:09:b0:8b:6b:fe:f6:39:29:47:2b:34:
+                    35:ea:e4:f1:2e:92:cd:9b:b1:c0:a9:ab:06:a4:af:
+                    61:e8:de:8c:e5:0a:f8:46:49:c4:73:ce:3f:22:35:
+                    e7:22:ba:af:f2:59:22:cc:40:40:9d:4f:8e:35:9a:
+                    83:c8:75:e4:8c:f1:92:37:3e:5c:69:e4:68:0c:a7:
+                    3a:15
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Authority Information Access: 
+                CA Issuers - URI:http://cis_ca.edgewood.edu/cis_ca.crt
+                OCSP - URI:http://ocsp.cis_ca.edgewood.edu:9082
+
+            X509v3 Authority Key Identifier: 
+                keyid:A6:C5:37:F6:27:8C:BA:1E:77:62:20:44:70:FB:9C:4E:5C:00:ED:A4
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://cis_ca.edgewood.edu/cis_ca.crl
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, TLS Web Server Authentication
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Subject Key Identifier: 
+                12:04:E6:D1:6E:59:52:20:4E:33:E1:3D:8F:EF:70:D8:74:FB:98:EE
+    Signature Algorithm: sha256WithRSAEncryption
+         3e:38:cc:dd:ec:f5:80:d5:21:04:14:ef:64:b8:4b:2e:fd:bc:
+         13:ac:cf:70:29:4e:ab:06:75:4e:f1:08:95:3b:44:9c:07:c9:
+         e0:ee:bb:7b:c5:01:ca:72:3c:41:12:53:65:59:ed:8d:63:1e:
+         fa:bf:54:1c:9f:4e:02:d1:6b:b0:ae:2b:08:15:65:fa:c7:7a:
+         63:c0:1a:fb:1a:c6:ba:fa:c6:9a:7c:04:60:55:7c:b7:37:66:
+         da:5a:61:e1:0a:ce:0c:87:4c:7a:da:96:57:d0:7e:ac:d8:0f:
+         12:33:af:4c:02:b3:f8:86:c6:52:79:cb:8a:b3:3e:a9:a2:89:
+         cf:2e:6b:ec:07:bb:a9:73:b1:84:04:78:01:26:cd:d3:67:90:
+         51:01:35:89:b0:18:c9:d3:53:2d:98:9a:62:42:01:5a:e1:45:
+         77:a3:79:eb:19:34:00:92:16:0c:03:cf:b2:15:6b:a7:39:17:
+         6c:bd:f0:c6:f0:aa:16:49:0d:77:8e:a6:a2:2c:4a:f1:3c:83:
+         b3:0c:64:60:92:a8:f2:86:68:d4:5a:51:85:8a:65:e3:45:f3:
+         94:23:88:a6:8b:fa:2e:6c:74:0e:46:10:87:00:9f:33:0c:c9:
+         50:e2:da:1c:02:a8:10:d2:fb:6d:b2:ad:63:c2:9e:b1:ec:77:
+         24:f9:d4:0e:31:69:2b:e5:1f:72:d8:93:97:0a:3e:63:4e:fe:
+         37:64:0c:bf:4a:36:6d:fe:00:00:9b:10:c1:0f:3e:e7:3a:7c:
+         61:63:1e:66:0a:2f:4f:7a:3f:53:8e:f2:0a:55:c0:f0:43:b2:
+         2d:ba:4a:8e:c9:70:f5:d3:b7:9d:59:36:17:78:db:6b:1c:e5:
+         ac:91:4e:b5:58:5f:57:8c:1e:dd:c0:63:cc:bd:b0:b7:20:23:
+         f5:ff:f2:7b:e1:13:81:2a:53:e5:4c:dc:17:41:77:5b:3c:ff:
+         52:9a:fb:6a:77:12:df:8e:49:fa:7e:97:58:24:4d:6d:2b:a0:
+         26:cd:e5:c6:5a:96:8c:cb:a0:ad:2c:e9:84:fc:57:17:37:cb:
+         de:2c:8a:0b:74:52:40:97:13:60:9f:72:c3:e0:cd:25:9d:d7:
+         89:20:16:d2:c7:f9:2c:7a:65:6c:53:7b:94:7e:3a:52:29:04:
+         cd:f3:56:bb:8b:e8:b6:f9:5e:2c:27:37:32:56:7c:0b:cd:64:
+         28:d4:60:19:15:78:7f:77:2a:49:e6:86:cf:05:db:c6:af:4f:
+         a4:cd:9a:a0:8d:33:46:ae:c8:a3:d2:a7:26:51:9f:cc:cd:53:
+         d1:ab:0b:e1:ae:a6:ca:58:17:40:0f:b1:db:c7:a7:61:75:62:
+         e3:22:ba:f5:43:7b:a8:c1
+-----BEGIN CERTIFICATE-----
+MIIFdDCCA1ygAwIBAgIQHdAHHICPTnU6PCu2G7lQbTANBgkqhkiG9w0BAQsFADA5
+MQswCQYDVQQGEwJVUzEZMBcGA1UECgwQRWRnZXdvb2QgQ29sbGVnZTEPMA0GA1UE
+AwwGQ0lTIENBMB4XDTE2MTEwOTIxMTYxMloXDTI2MTEwNzIxMTYxMlowgYAxCzAJ
+BgNVBAYTAlVTMQswCQYDVQQIDAJXSTEZMBcGA1UECgwQRWRnZXdvb2QgQ29sbGVn
+ZTEMMAoGA1UECwwDQ0lTMRYwFAYDVQQDDA1YaWFucGluZyBXYW5nMSMwIQYJKoZI
+hvcNAQkBFhR4aWF3YW5nQGVkZ2V3b29kLmVkdTCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAMN4QP+7O6omj3Y9zo1sCrD46r9h7U9UWZiqPJW/fmSFHMLf
+lgHzxYf6gchedMY5Skg2rKJnDcZUSbsrRwLArAlSjgYCfb6qf2dllIPRmQPhFAbK
+6wXJhnDUJvCnHYwyPWIuTauIgo03trD298b1dnreB+ju+2/luEWu/TRgeLrvOWpS
+DrWBHz4lGTD/Rl9UHFlveqKJGzrYeuhlEF2KSjuTj6jYGJNJTfOC0apPvmERcn1h
+usNZWAmwi2v+9jkpRys0Nerk8S6SzZuxwKmrBqSvYejejOUK+EZJxHPOPyI15yK6
+r/JZIsxAQJ1PjjWag8h15Izxkjc+XGnkaAynOhUCAwEAAaOCAS4wggEqMHMGCCsG
+AQUFBwEBBGcwZTAxBggrBgEFBQcwAoYlaHR0cDovL2Npc19jYS5lZGdld29vZC5l
+ZHUvY2lzX2NhLmNydDAwBggrBgEFBQcwAYYkaHR0cDovL29jc3AuY2lzX2NhLmVk
+Z2V3b29kLmVkdTo5MDgyMB8GA1UdIwQYMBaAFKbFN/YnjLoed2IgRHD7nE5cAO2k
+MAwGA1UdEwEB/wQCMAAwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2Npc19jYS5l
+ZGdld29vZC5lZHUvY2lzX2NhLmNybDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYB
+BQUHAwEwDgYDVR0PAQH/BAQDAgWgMB0GA1UdDgQWBBQSBObRbllSIE4z4T2P73DY
+dPuY7jANBgkqhkiG9w0BAQsFAAOCAgEAPjjM3ez1gNUhBBTvZLhLLv28E6zPcClO
+qwZ1TvEIlTtEnAfJ4O67e8UBynI8QRJTZVntjWMe+r9UHJ9OAtFrsK4rCBVl+sd6
+Y8Aa+xrGuvrGmnwEYFV8tzdm2lph4QrODIdMetqWV9B+rNgPEjOvTAKz+IbGUnnL
+irM+qaKJzy5r7Ae7qXOxhAR4ASbN02eQUQE1ibAYydNTLZiaYkIBWuFFd6N56xk0
+AJIWDAPPshVrpzkXbL3wxvCqFkkNd46moixK8TyDswxkYJKo8oZo1FpRhYpl40Xz
+lCOIpov6Lmx0DkYQhwCfMwzJUOLaHAKoENL7bbKtY8Kesex3JPnUDjFpK+UfctiT
+lwo+Y07+N2QMv0o2bf4AAJsQwQ8+5zp8YWMeZgovT3o/U47yClXA8EOyLbpKjslw
+9dO3nVk2F3jbaxzlrJFOtVhfV4we3cBjzL2wtyAj9f/ye+ETgSpT5UzcF0F3Wzz/
+Upr7ancS345J+n6XWCRNbSugJs3lxlqWjMugrSzphPxXFzfL3iyKC3RSQJcTYJ9y
+w+DNJZ3XiSAW0sf5LHplbFN7lH46UikEzfNWu4votvleLCc3MlZ8C81kKNRgGRV4
+f3cqSeaGzwXbxq9PpM2aoI0zRq7Io9KnJlGfzM1T0asL4a6mylgXQA+x28enYXVi
+4yK69UN7qME=
+-----END CERTIFICATE-----

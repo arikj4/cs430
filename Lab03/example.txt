@@ -17,6 +17,8 @@
 	openssl dgst -sha1 -hmac hello -sign Xianping_Wang.prv -out tiangong.hmacsha1.sgn2 tiangong.jpg
 	openssl dgst -sha1 -hmac hello -verify Xianping_Wang.pub -signature tiangong.hmacsha1.sgn2 tiangong.jpg	
 	
+	
+	# universal methods
 	openssl rsautl -sign -in tiangong.hmacsha1 -out tiangong.hmacsha1.sgn1 -inkey Xianping_Wang.prv
 	openssl rsautl -verify -in tiangong.hmacsha1.sgn -out tiangong.hmacsha1.v -inkey Xianping_Wang.pub -pubin
 	fc /b tiangong.hmacsha1 tiangong.hmacsha1.v	
