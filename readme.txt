@@ -100,7 +100,8 @@ Lab-2/3:
 Lab-4-6:
 	https://www.tutorialspoint.com/java/
 	https://docs.oracle.com/javase/tutorial/
-	https://commons.apache.org/proper/commons-cli/	
+	https://commons.apache.org/proper/commons-cli/
+	http://www.javapractices.com/topic/TopicAction.do?Id=245
 	http://docs.oracle.com/javase/7/docs/technotes/guides/security/crypto/CryptoSpec.html#Cipher
 	
 	
