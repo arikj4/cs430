@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="H:/fall-2016/cs430/code/cs430/Lab05/lib/commons-cli-1.3.1.jar"/>
+	<classpathentry kind="lib" path="H:/fall-2016/cs430/code/cs430/Lab05/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

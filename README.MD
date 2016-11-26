@@ -103,7 +103,15 @@ Here are code templates for the course CS430 --- Information Security & Network 
 	https://docs.oracle.com/javase/tutorial/
 	https://commons.apache.org/proper/commons-cli/
 	http://www.javapractices.com/topic/TopicAction.do?Id=245
+	http://commons.apache.org/proper/commons-codec/
 	http://docs.oracle.com/javase/8/docs/technotes/guides/security/crypto/CryptoSpec.html#Cipher
 	http://docs.oracle.com/javase/8/docs/technotes/guides/security/certpath/CertPathProgGuide.html
+	http://stackoverflow.com/questions/6481627/java-security-illegal-key-size-or-default-parameters
+	http://docs.oracle.com/javase/7/docs/technotes/guides/security/StandardNames.html
+	
+## cis server
+	http://firessh.net/
+	http://fireftp.net
+	https://139.135.111.63
 	
 	
